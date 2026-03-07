@@ -31,13 +31,17 @@ https://salditerra.wuaze.com/
 - **Gestão de utilizadores**
   - Registo
   - Login
-  - Edição de perfil
   - Logout
 - **Área administrativa**
+  - Visualizar utilizadores
+  - Edição de utilizador
+  - Remover utilizador
+  - Visualizar produtos
   - Adicionar produtos
   - Editar produtos
   - Remover produtos
-  - Visualizar utilizadores
+  - Gestão de Pedidos
+  - Gestão de itens de Pedidos
 - **Reservas online**
 - Importação de catálogo via **JSON (`catalog.json`)**
 - Contagem de itens no carrinho em **tempo real**
@@ -134,13 +138,13 @@ salditerra_restaurant/
 |----------|-----------|
 | `config.php` | Configurações da base de dados |
 | `get_products.php` | Obtenção dos produtos do catálogo |
-| `reservation.php` | Página de reservas online |
+| `reservation.php` | Processamento de reservas online |
 | `delete_product.php` | Remoção de produtos |
 | `import_catalog.php` | Importação de catálogo via JSON |
 | `add_to_cart.php` | Adicionar produto ao carrinho |
 | `remove_from_cart.php` | Remover produto do carrinho |
 | `update_cart.php` | Atualizar quantidades do carrinho |
-| `totals.php` | Cálculo do total do carrinho |
+| `totals.php` | Processamento dos valores totais no painel admin |
 | `cart-count.php` | Contagem de itens no carrinho |
 | `process_login.php` | Processamento de login |
 | `process_register.php` | Processamento de registo |
@@ -153,8 +157,8 @@ salditerra_restaurant/
 | Pasta / Ficheiro | Descrição |
 |-----------------|-----------|
 | `catalog.json` | Dados iniciais do catálogo |
-| `assets/` | Imagens e ícones |
-| `uploads/` | Uploads de utilizadores e produtos |
+| `assets/` | Imagens |
+| `uploads/` | Uploads de imagens de utilizadores e produtos |
 
 ---
 
@@ -194,3 +198,4 @@ Ambientes recomendados:
 ```bash
 
 git clone https://github.com/elviopatrickdev/salditerra_restaurant.git
+
