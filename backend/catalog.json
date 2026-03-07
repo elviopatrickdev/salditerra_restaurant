@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "name": "Rich Cachupa",
+        "description": "Corn, beans, sweet potato, cassava, vegetables, assorted meats and sausages, fresh herbs, and optional salted fish.",
+        "price": "24.99",
+        "image": "uploads\/img_1771517739_467134dc.png",
+        "stock": 3
+    },
+    {
+        "id": "2",
+        "name": "Grilled Lobster",
+        "description": "Fresh lobster, garlic, and butter, served with smoked sweet potato purée, seasonal vegetables, and fresh herbs.",
+        "price": "44.99",
+        "image": "uploads\/img_1771517772_364bfa85.png",
+        "stock": 6
+    },
+    {
+        "id": "3",
+        "name": "Tuna & Mango",
+        "description": "Seared fresh tuna with mango sauce, microgreens, crunchy seeds, and optional balsamic reduction.",
+        "price": "34.99",
+        "image": "uploads\/img_1771517821_3eee6a45.png",
+        "stock": 9
+    },
+    {
+        "id": "4",
+        "name": "Fish Broth",
+        "description": "Seafood broth with fresh fish, shrimp, vegetables, herbs, and optional rice.",
+        "price": "28.99",
+        "image": "uploads\/img_1771517856_c9049e9e.png",
+        "stock": 9
+    },
+    {
+        "id": "5",
+        "name": "Papaya & Cheese",
+        "description": "Ripe papaya with fresh cheese, cream, brown sugar, citrus zest, and mint garnish.",
+        "price": "10.99",
+        "image": "uploads\/img_1771517886_ba4265a8.png",
+        "stock": 10
+    },
+    {
+        "id": "6",
+        "name": "Cow's Sarabudja",
+        "description": "Selected cow's foot, white beans, corn, sweet potato, vegetables, fresh herbs, and a touch of white wine.",
+        "price": "30.99",
+        "image": "uploads\/img_1771517943_0ffdafc1.png",
+        "stock": 0
+    }
+]
