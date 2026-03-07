@@ -164,8 +164,9 @@ O sistema utiliza **MySQL** para armazenar:
 
 - Utilizadores
 - Produtos
+- Pedidos
+- Itens de Pedidos
 - Reservas
-- Itens do carrinho
 
 A base de dados deve ser criada manualmente no MySQL e as tabelas podem ser importadas através de um ficheiro SQL incluído no projeto.
 
@@ -191,4 +192,5 @@ Ambientes recomendados:
 ### 1️⃣ Clonar o repositório
 
 ```bash
+
 git clone https://github.com/elviopatrickdev/salditerra_restaurant.git
