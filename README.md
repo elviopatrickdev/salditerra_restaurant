@@ -47,17 +47,69 @@ https://salditerra.wuaze.com/
 # 📸 Screenshots
 
 ### Página Inicial
-![Home](assets/screenshot_home.png)
+![Home](public/assets/screenshot_home.png)
 
 ### Carrinho
-![Cart](assets/screenshot_cart.png)
+![Cart](public/assets/screenshot_cart.png)
 
 ### Painel Admin
-![Admin](assets/screenshot_admin_dash.png)
+![Admin](public/assets/screenshot_admin_dash.png)
 
 ---
 
 # 📂 Estrutura de Ficheiros
+
+```text
+salditerra_restaurant/
+│
+├── public/
+│   ├── index.php
+│   ├── cart.php
+│   ├── login-register.php
+│   ├── profile.php
+│   ├── admin.php
+│   ├── edit_user.php
+│   ├── add_product.php
+│   ├── edit_product.php
+│   │ 
+│   ├── css/
+│   │   └── style.css
+│   │ 
+│   ├── js/
+│   │   └── scripts.js
+│   │ 
+│   ├── assets/
+│   │    └── imagens
+│   │ 
+│   └── uploads/
+│        └── imagens
+│
+├── backend/
+│   ├── catalog.json
+│   ├── cart-count.php
+│   ├── import_catalog.php
+│   ├── reservation.php
+│   ├── update_cart.php
+│   ├── delete_product.php
+│   ├── add_to_cart.php
+│   ├── remove_from_cart.php
+│   ├── totals.php
+│   └── get_products.php
+│ 
+├── auth/
+│   ├── process_login.php
+│   ├── process_register.php
+│   ├── logout.php
+│ 
+├── config/
+│   └── config.php
+│
+├── database/
+│   └── salditerra_db.sql
+│
+├── .gitignore
+└── README.md
+```
 
 ## Front-end
 
@@ -65,22 +117,24 @@ https://salditerra.wuaze.com/
 |----------|-----------|
 | `index.php` | Página inicial com destaque para os pratos |
 | `cart.php` | Página do carrinho de compras |
-| `profile.php` | Página de perfil do utilizador |
 | `login-register.php` | Página de login e registo |
-| `reservation.php` | Página de reservas online |
+| `profile.php` | Página de perfil do utilizador |
+| `admin.php` | Painel de administração |
+| `edit_user.php` | Edição de utilizador |
+| `add_product.php` | Adição de novos produtos |
+| `edit_product.php` | Edição de produtos |
 | `style.css` | Estilos globais do site |
 | `scripts.js` | Funcionalidades interativas |
 
 ---
 
-## Back-end / PHP
+## Back-end 
 
 | Ficheiro | Descrição |
 |----------|-----------|
 | `config.php` | Configurações da base de dados |
 | `get_products.php` | Obtenção dos produtos do catálogo |
-| `add_product.php` | Adição de novos produtos |
-| `edit_product.php` | Edição de produtos |
+| `reservation.php` | Página de reservas online |
 | `delete_product.php` | Remoção de produtos |
 | `import_catalog.php` | Importação de catálogo via JSON |
 | `add_to_cart.php` | Adicionar produto ao carrinho |
@@ -90,9 +144,7 @@ https://salditerra.wuaze.com/
 | `cart-count.php` | Contagem de itens no carrinho |
 | `process_login.php` | Processamento de login |
 | `process_register.php` | Processamento de registo |
-| `edit_user.php` | Edição de utilizador |
 | `logout.php` | Logout |
-| `admin.php` | Painel de administração |
 
 ---
 
