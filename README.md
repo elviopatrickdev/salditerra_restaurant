@@ -1,7 +1,7 @@
 <h1 align="center">🍽️ Salditerra Restaurant Web Application</h1>
 
 <p align="center">
-<img src="public/assets/readme_logo.png" width="200" style="border-radius: 20px;">
+<img src="public/assets/readme_logo.png" width="200">
 </p>
 
 ## 🌍 Sobre o Projeto
