@@ -1,4 +1,4 @@
-<h1 align="center">🍽️ Salditerra Restaurant Web Application</h1>
+<h1 align="center">🍽️ Salditerra Restaurant - Web Application</h1>
 
 <p align="center">
 <img src="public/assets/readme_logo.png" width="200">
@@ -202,6 +202,7 @@ Ambientes recomendados:
 ```bash
 
 git clone https://github.com/elviopatrickdev/salditerra_restaurant.git
+
 
 
 
