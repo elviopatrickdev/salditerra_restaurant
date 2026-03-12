@@ -1,6 +1,6 @@
 # 🍽️ Salditerra Restaurant Web Application
 
-![Salditerra_Restaurant_Logo](public/assets/readme_logo.png)
+<img src="public/assets/readme_logo.png" width="200">
 
 ## 🌍 Sobre o Projeto
 Este projeto é um website para **Salditerra Restaurant**, um restaurante de **culinária típica de Cabo Verde**, localizado em **Abuja, Nigéria**.
@@ -200,6 +200,7 @@ Ambientes recomendados:
 ```bash
 
 git clone https://github.com/elviopatrickdev/salditerra_restaurant.git
+
 
 
 
