@@ -11,9 +11,6 @@ O sistema permite que clientes explorem o menu, façam pedidos e reservas online
 
 O objetivo do projeto é demonstrar a construção de uma aplicação web completa utilizando tecnologias clássicas de desenvolvimento web, com foco em **usabilidade, organização do código e interação dinâmica**.
 
-🌐 **Site online:**  
-https://salditerra.wuaze.com/
-
 ---
 
 # 💻 Tecnologias Utilizadas
